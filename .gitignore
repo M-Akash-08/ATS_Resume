@@ -1,0 +1,33 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets - never commit API keys
+.env
+.env.*
+*.key
+secrets.toml
+.streamlit/secrets.toml
+
+# Personal data: your resumes and generated outputs
+*.pdf
+*.docx
+*.doc
+uploads/
+output/
+outputs/
+
+# Editors / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
